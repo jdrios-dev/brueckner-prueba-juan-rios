@@ -1,0 +1,25 @@
+
+
+
+<section class="detail-profile__container">
+  <div class="detail-profile__img">
+    <img src="../../../assets/picture-default.png" alt="">
+  </div>
+  <div class="detail-profile__data">
+    <h1>{{name}}</h1>
+    <div class="detail-profile__data--item" >
+      <p> Salary: </p>
+      <p>{{this.salary | currency: 'EUR'}}</p>
+    </div>
+    <div class="detail-profile__data--item">
+      <p>Age: </p>
+      <p>{{age}}</p>
+    </div>
+  </div>
+</section>
+
+<div class="detail-profile__btn--container">
+  <button mat-raised-button color="primary" routerLink="/" class="detail-profile__btn" >Go back</button>
+</div>
+
+

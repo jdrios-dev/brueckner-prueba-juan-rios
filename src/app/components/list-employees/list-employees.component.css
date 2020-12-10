@@ -1,0 +1,31 @@
+.expansion__btn {
+  margin-right: auto;
+  width: 100%;
+}
+
+.home__title {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 50px;
+}
+
+mat-accordion {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+mat-expansion-panel {
+  max-width: 800px;
+  width: 100%;
+}
+
+mat-panel-title {
+  width: 40%;
+}
+
+mat-icon {
+  padding-right: 10px;
+}

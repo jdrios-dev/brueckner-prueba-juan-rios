@@ -1,0 +1,27 @@
+.new-employee__container {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 0 ;
+  justify-content: space-between;
+}
+
+.new-employee__container form {
+  margin-left: 20px;
+  width: 50%;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.new-employee__btn--container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.button-block {
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+.navbar {
+  justify-content: space-between;
+}
+
+.navbar__link {
+  padding: 1rem 1.5rem;
+  color: white;
+  text-decoration: none;
+}

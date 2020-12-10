@@ -1,0 +1,42 @@
+
+<div class="new-employee__container">
+
+  <div>
+    <h2>Create a new Employee</h2>
+    <small>Please specify name, age and salary.</small>
+  </div>
+
+  <form (submit)="formSubmit();" >
+    <div *ngIf="alertMessage"  >{{alertMessage}}</div>
+    <mat-form-field appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput
+        name="name"
+        [(ngModel)]="newEmployeeData.name"
+      >
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+      <mat-label>Salary</mat-label>
+      <input matInput
+      name="salary"
+      [(ngModel)]="newEmployeeData.salary"
+      >
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+      <mat-label>Age</mat-label>
+      <input matInput
+      name="age"
+      [(ngModel)]="newEmployeeData.age"
+      >
+    </mat-form-field>
+    <button
+      (submit)="formSubmit();"
+      mat-raised-button color="primary"
+      class="button-block" >Create</button>
+  </form>
+</div>
+
+
+

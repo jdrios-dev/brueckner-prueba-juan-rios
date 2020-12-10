@@ -1,0 +1,20 @@
+
+
+<h1 class="home__title">All employees</h1>
+
+<mat-accordion class="example-headers-align" >
+  <mat-expansion-panel *ngFor="let employee of employees, let i = index"  >
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <mat-icon>account_circle</mat-icon>
+        {{employee.employee_name}}
+      </mat-panel-title>
+      <mat-panel-description>
+        Age: {{employee.employee_age}}
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <a routerLink="/employee/{{i + 1}}"  mat-raised-button color="primary" class="expansion__btn">
+      Visit for more details
+    </a>
+  </mat-expansion-panel>
+</mat-accordion>
