@@ -30,6 +30,7 @@ export class DetailEmployeeComponent implements OnInit {
         this.salary = res.data.employee_salary;
         this.age = res.data.employee_age;
         this.image = res.data.employee_image;
+        this.loading = false;
       }
     });
   }
@@ -40,4 +41,5 @@ export class DetailEmployeeComponent implements OnInit {
   public salary: number = 0;
   public age: string = "";
   public image: string = "";
+  public loading: boolean = true;
 }

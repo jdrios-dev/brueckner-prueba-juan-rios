@@ -39,3 +39,7 @@
 .detail-profile__btn {
   width: 100%;
 }
+
+mat-spinner {
+  margin: 50px auto;
+}

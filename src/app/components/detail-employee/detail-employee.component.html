@@ -5,7 +5,8 @@
   <div class="detail-profile__img">
     <img src="../../../assets/picture-default.png" alt="">
   </div>
-  <div class="detail-profile__data">
+  <mat-spinner *ngIf="loading"></mat-spinner>
+  <div *ngIf="!loading" class="detail-profile__data">
     <h1>{{name}}</h1>
     <div class="detail-profile__data--item" >
       <p> Salary: </p>
