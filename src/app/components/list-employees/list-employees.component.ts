@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { DataService } from 'src/app/service/data.service';
-
 
 
 @Component({
@@ -10,11 +9,13 @@ import { DataService } from 'src/app/service/data.service';
 })
 export class ListEmployeesComponent implements OnInit {
 
+
   constructor(
     private data: DataService
-  ) {this.employees = [];}
+  ) {}
 
   ngOnInit(): void {
+
 
     let requestObject = {
       type: 'GET',
@@ -27,5 +28,12 @@ export class ListEmployeesComponent implements OnInit {
       }
     });
   }
-  public employees: any[] = [];
+  public employees: [] = [];
+  public pageSize: number = 10;
+  public pageNumber: number = 1;
+  public pageSizeOptions = [5, 10, 15];
+  public handlePage(e) {
+    this.pageSize = e.pageSize;
+    this.pageNumber = e.pageIndex+1;
+  }
 }

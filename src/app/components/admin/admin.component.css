@@ -1,0 +1,13 @@
+
+.country__container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.country__alert {
+  padding: 50px 0;
+}
+
+.country__btn {
+  width: 100%;
+}

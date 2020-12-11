@@ -3,7 +3,7 @@
 <h1 class="home__title">All employees</h1>
 
 <mat-accordion class="example-headers-align" >
-  <mat-expansion-panel *ngFor="let employee of employees, let i = index"  >
+  <mat-expansion-panel *ngFor="let employee of employees | pagination:pageSize:pageNumber, let i = index "  >
     <mat-expansion-panel-header>
       <mat-panel-title>
         <mat-icon>account_circle</mat-icon>
@@ -17,4 +17,9 @@
       Visit for more details
     </a>
   </mat-expansion-panel>
+  <mat-paginator [length]="employees.length"
+                [pageSize]="pageSize"
+                [pageSizeOptions]="pageSizeOptions"
+                (page)="handlePage($event)">
+  </mat-paginator>
 </mat-accordion>
