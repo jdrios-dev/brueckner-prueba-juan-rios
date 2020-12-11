@@ -11,6 +11,7 @@ import { DetailEmployeeComponent } from './components/detail-employee/detail-emp
 import { AdminComponent } from './components/admin/admin.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { Chart1Component } from './components/chart1/chart1.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MaterialModule } from './material/material.module';
     ListEmployeesComponent,
     NewEmployeesComponent,
     DetailEmployeeComponent,
-    AdminComponent
+    AdminComponent,
+    Chart1Component
   ],
   imports: [
     BrowserModule,
