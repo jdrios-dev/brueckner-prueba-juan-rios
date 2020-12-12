@@ -14,6 +14,8 @@ import { MaterialModule } from './material/material.module';
 import { Chart1Component } from './components/chart1/chart1.component';
 import { PaginationPipe } from './pipes/pagination.pipe';
 import { HeroComponent } from './components/hero/hero.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -34,7 +36,8 @@ import { HeroComponent } from './components/hero/hero.component';
     MaterialModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
