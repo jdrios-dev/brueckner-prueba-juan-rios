@@ -40,6 +40,16 @@
   width: 100%;
 }
 
+.detail-profile__btn-action {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.detail-profile__btn-action button {
+  width: 48%;
+}
+
 mat-spinner {
   margin: 50px auto;
 }

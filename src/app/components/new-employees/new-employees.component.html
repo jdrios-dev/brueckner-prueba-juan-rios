@@ -1,5 +1,5 @@
 
-<div class="new-employee__container">
+<div class="new-employee__container animate__animated animate__fadeIn">
 
   <div>
     <h2>Create a new Employee</h2>
@@ -7,7 +7,7 @@
   </div>
 
   <form (submit)="formSubmit();" >
-    <div *ngIf="alertMessage"  >{{alertMessage}}</div>
+    <div *ngIf="alertMessage" class="animate__animated animate__fadeIn" >{{alertMessage}}</div>
     <mat-form-field appearance="fill">
       <mat-label>Name</mat-label>
       <input matInput

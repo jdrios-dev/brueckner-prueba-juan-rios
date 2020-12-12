@@ -1,12 +1,12 @@
 
 
 
-<section class="detail-profile__container">
+<section class="detail-profile__container animate__animated animate__fadeIn">
   <div class="detail-profile__img">
     <img src="../../../assets/picture-default.png" alt="">
   </div>
   <mat-spinner *ngIf="loading"></mat-spinner>
-  <div *ngIf="!loading" class="detail-profile__data">
+  <div *ngIf="!loading" class="detail-profile__data animate__animated animate__fadeIn">
     <h1>{{name}}</h1>
     <div class="detail-profile__data--item" >
       <p> Salary: </p>
@@ -16,10 +16,14 @@
       <p>Age: </p>
       <p>{{age}}</p>
     </div>
+    <div class="detail-profile__btn-action">
+      <button mat-raised-button color="basic">Edit</button>
+      <button mat-raised-button color="warn" (click)="openDialog()">Delete</button>
+    </div>
   </div>
 </section>
 
-<div class="detail-profile__btn--container">
+<div class="detail-profile__btn--container animate__animated animate__fadeIn">
   <button mat-raised-button color="primary" routerLink="/" class="detail-profile__btn" >Go back</button>
 </div>
 
