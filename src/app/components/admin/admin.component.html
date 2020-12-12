@@ -1,15 +1,15 @@
 <mat-tab-group mat-align-tabs="center" class="animate__animated animate__fadeIn">
-  <mat-tab label="Salary">
+  <mat-tab label="{{ 'admin.tabs.tab_1' | translate }}">
     <app-chart1></app-chart1>
   </mat-tab>
 
-  <mat-tab label="Country">
+  <mat-tab label="{{ 'admin.tabs.tab_2' | translate }}">
     <div class="country__container animate__animated animate__fadeIn">
       <h1 class="country__alert">
-        Cooming soon, you will be able to compare the salary of your employees depending of their country.
+        {{ 'admin.country.title' | translate }}
       </h1>
       <a routerLink="/"  mat-raised-button color="primary" class="country__btn">
-        Go to Home
+        {{ 'admin.country.button' | translate }}
       </a>
     </div>
   </mat-tab>

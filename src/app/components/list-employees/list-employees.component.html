@@ -1,6 +1,6 @@
 <app-hero></app-hero>
 
-<h1 class="home__title animate__animated animate__fadeIn">All employees</h1>
+<h1 class="home__title animate__animated animate__fadeIn">{{ 'list.title' | translate }}</h1>
 
 <mat-accordion class="example-headers-align animate__animated animate__fadeIn" >
   <mat-expansion-panel *ngFor="let employee of employees | pagination:pageSize:pageNumber, let i = index "  >
@@ -10,11 +10,11 @@
         {{employee.employee_name}}
       </mat-panel-title>
       <mat-panel-description>
-        Age: {{employee.employee_age}}
+        {{ 'list.detail.age' | translate }}: {{employee.employee_age}}
       </mat-panel-description>
     </mat-expansion-panel-header>
     <a routerLink="/employee/{{i + 1}}"  mat-raised-button color="primary" class="expansion__btn">
-      Visit for more details
+      {{ 'list.detail.button' | translate }}
     </a>
   </mat-expansion-panel>
   <mat-paginator [length]="employees.length"
