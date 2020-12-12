@@ -7,3 +7,16 @@
   color: white;
   text-decoration: none;
 }
+
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 0 5px 0 rgb(39, 39, 39);
+}
+
+@media (max-width: 500px) {
+  .employees__link--home {
+    display: none;
+  }
+}

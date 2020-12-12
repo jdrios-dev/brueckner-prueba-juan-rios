@@ -36,7 +36,7 @@
   margin: 50px auto;
 }
 
-.detail-profile__btn {
+.detail-profile__btn-home {
   width: 100%;
 }
 
@@ -52,4 +52,18 @@
 
 mat-spinner {
   margin: 50px auto;
+}
+
+@media (max-width: 500px){
+  .detail-profile__container  {
+    flex-direction: column;
+    align-items: center;
+  }
+  .detail-profile__btn-home {
+    width: 80%;
+  }
+  .detail-profile__btn--container {
+    display: flex;
+    justify-content: center;
+  }
 }

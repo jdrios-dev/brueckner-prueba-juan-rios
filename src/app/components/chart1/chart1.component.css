@@ -14,3 +14,9 @@
   border: 2px soli red;
   color: #8a8b8f;
 }
+
+@media (max-width: 500px) {
+  .figure {
+    width: 80%;
+  }
+}

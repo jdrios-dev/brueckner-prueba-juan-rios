@@ -11,3 +11,9 @@
 .country__btn {
   width: 100%;
 }
+
+@media (max-width: 500px) {
+  .country__container {
+    padding: 20px;
+  }
+}
