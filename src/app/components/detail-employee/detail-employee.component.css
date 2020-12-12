@@ -3,6 +3,7 @@
   display: flex;
   margin: 50px auto;
   font-size: 1.5rem;
+  color: rgb(82, 82, 82);
 }
 
 .detail-profile__img {
@@ -28,6 +29,7 @@
 .detail-profile__data--item {
   display: flex;
   justify-content: space-between;
+  font-weight: 200;
 }
 
 .detail-profile__btn--container {

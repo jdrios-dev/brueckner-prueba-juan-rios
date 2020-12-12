@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { Chart1Component } from './components/chart1/chart1.component';
 import { PaginationPipe } from './pipes/pagination.pipe';
+import { HeroComponent } from './components/hero/hero.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PaginationPipe } from './pipes/pagination.pipe';
     DetailEmployeeComponent,
     AdminComponent,
     Chart1Component,
-    PaginationPipe
+    PaginationPipe,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
