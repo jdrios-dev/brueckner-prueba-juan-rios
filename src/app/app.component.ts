@@ -15,7 +15,11 @@ export class AppComponent {
   ) {
     this.translate.setDefaultLang('en');
     this.translate.use('en');
-    this.translate.addLangs(['es', 'en'])
+    this.translate.addLangs(['en', 'es']);
+    this.langs = this.translate.getLangs();
   }
 
+  public changeLang(lang: string) {
+    this.translate.use(lang)
+  }
 }

@@ -6,9 +6,18 @@
     <a mat-button routerLink="/" class="navbar__link employees__link--home">{{'header.employees' | translate}}</a>
     <a mat-button routerLink="/new-employee" class="navbar__link">{{'header.new_employee' | translate}}</a>
     <a mat-button routerLink="/admin" class="navbar__link">{{'header.admin' | translate}}</a>
+    <div class="lang__selector">
+      <label>Change language
+        <select #langSelect (change)="changeLang(langSelect.value)">
+          <option *ngFor="let lang of langs" [value]="lang">{{lang}}</option>
+        </select>
+      </label>
+    </div>
   </div>
 </mat-toolbar>
 
 
 
 <router-outlet></router-outlet>
+
+

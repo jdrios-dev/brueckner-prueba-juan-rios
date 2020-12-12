@@ -71,7 +71,14 @@
   bottom: 0;
 }
 
+@media (max-width: 500px){
+  .shape {
+    opacity: .5;
+  }
+}
+
 @media (min-width: 1000px){
+
   .shape-1 {
     background-color: #3f51b5;
     left: 10%;
