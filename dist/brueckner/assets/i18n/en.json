@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title" : "ALL EMPLOYEES MANAGEMENT IN ONE PLACE",
+    "description" : "Here you will find all you employees, see their details info, delete or update them."
+  },
+  "header" : {
+    "home": "Home",
+    "employees": "Employees",
+    "new_employee": "New Employee",
+    "admin": "Admin"
+  },
+  "list": {
+    "title": "All your Employees",
+    "detail": {
+      "age": "Age",
+      "button": "More details"
+    }
+  },
+  "new_employee":{
+    "title": "Create a new Employee",
+    "description": "Please specify name, age and salary.",
+    "form": {
+      "name": "Name",
+      "salary": "Salary",
+      "age": "Age",
+      "button": "Create"
+    }
+  },
+  "detail_employee":{
+    "info": {
+      "salary": "Salary",
+      "age": "Age",
+      "edit_button": "Edit",
+      "delete_button": "Delete"
+    },
+    "button": "Go Back",
+    "modal": {
+      "title": "We are Sorry :(",
+      "description": "This employee has been deleted."
+    }
+  },
+  "admin":{
+    "tabs":{
+      "tab_1": "Salary",
+      "tab_2": "Country"
+    },
+    "salary":{
+      "title" : "Salary Chart",
+      "description" : "Here you could be able to compare salaries per person with their age."
+    },
+    "country":{
+      "title" : "Cooming soon, you will be able to compare the salary of your employees depending of their country.",
+      "description" : "",
+      "button": "Go to Home"
+    }
+  }
+}
