@@ -1,6 +1,6 @@
 # Brueckner Test ( Juan Rios )
 
-Employees Manager, List, edit, delete and create you employees
+Employees Manager: List, edit, delete and create you employees
 
 ## Starting with 🚀
 
@@ -34,6 +34,12 @@ Go to http://localhost/ on your browser
 
 * [Angular]
 * [Angular Material]
+* [Docker]
+
+## Languages ✒️
+
+* [English]
+* [Spanish]
 
 ## Team Frontend ✒️
 
