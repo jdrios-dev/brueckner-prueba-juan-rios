@@ -20,9 +20,11 @@ Clone this repo, run : git clone https://github.com/jdrios-dev/brueckner-prueba-
 
 Move to this new directory: cd brueckner-prueba-juan-rios
 
-Run Docker build: docker build . -t brueckner:latest
+Run Docker build: docker build  -t brueckner:latest .
 
-Go to http://localhost:8080/ on your browser
+Run: docker run -d -p 80:80 brueckner:latest
+
+Go to http://localhost/ on your browser
 
 ## Deploy 📦
 
