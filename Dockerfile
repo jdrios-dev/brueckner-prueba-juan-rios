@@ -11,7 +11,6 @@ COPY . ./
 
 RUN npm install -g @angular/cli
 RUN npm install --unsafe-perm
-
 RUN npm run build
 
 # nginx base image
