@@ -1,6 +1,6 @@
 # Brueckner Test ( Juan Rios )
 
-Employees Manager: List, edit, delete and create you employees
+Employees Manager: List, edit, delete and create your employees
 
 ## Starting with 🚀
 
