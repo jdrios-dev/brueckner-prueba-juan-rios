@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title" : "ADMINISTRA TODOS TUS COLABORADORES EN UN SOLO LUGAR",
+    "description" : "Aqui encontraras a todos tus colaboradores, ver toda su información, borrarlos o actualizarlos.",
+    "button":"Ver colaboradores"
+  },
+  "header" : {
+    "home": "Inicio",
+    "employees": "Colaboradores",
+    "new_employee": "Crear nuevo",
+    "admin": "Admin"
+  },
+  "list": {
+    "title": "Todos tus Empleados",
+    "detail": {
+      "age": "Edad",
+      "button": "Más detalles"
+    }
+  },
+  "new_employee":{
+    "title": "Crea un nuevo Colaborador",
+    "description": "Por favor especifique nombre, edad y salario",
+    "form": {
+      "name": "Nombre",
+      "salary": "Salario",
+      "age": "Edad",
+      "button": "Crear"
+    }
+  },
+  "detail_employee":{
+    "info": {
+      "salary": "Salario",
+      "age": "Edad",
+      "edit_button": "Editar",
+      "delete_button": "Borrar"
+    },
+    "button": "Regresar",
+    "modal": {
+      "title": "Lo sentimos :(",
+      "description": "El usuario ha sido eliminado."
+    }
+  },
+  "admin":{
+    "tabs":{
+      "tab_1": "Salario",
+      "tab_2": "País"
+    },
+    "salary":{
+      "title" : "Gráfica de Salarios.",
+      "description" : "Aquí podras comparar los salarios de cada  persona con su edad."
+    },
+    "country":{
+      "title" : "Muy pronto podras comparar el salario de tus empleados dependiendo del lugar donde viven.",
+      "description" : "",
+      "button": "Volver al inicio"
+    }
+  }
+}
