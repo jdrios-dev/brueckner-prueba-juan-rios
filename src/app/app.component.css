@@ -39,4 +39,10 @@ mat-toolbar {
   .employees__link--home {
     display: none;
   }
+
+  .lang__selector {
+    position: fixed;
+    bottom: 10px;
+    background-color: rgb(83, 83, 83);
+  }
 }

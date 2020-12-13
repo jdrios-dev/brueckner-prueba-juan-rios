@@ -1,7 +1,8 @@
 {
   "hero": {
     "title" : "ALL EMPLOYEES MANAGEMENT IN ONE PLACE",
-    "description" : "Here you will find all you employees, see their details info, delete or update them."
+    "description" : "Here you will find all you employees, see their details info, delete or update them.",
+    "button":"See Employees"
   },
   "header" : {
     "home": "Home",

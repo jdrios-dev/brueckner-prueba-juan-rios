@@ -18,6 +18,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { NotFoundComponentComponent } from './components/not-found-component/not-found-component.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -32,7 +33,8 @@ export function createTranslateLoader(http: HttpClient) {
     AdminComponent,
     Chart1Component,
     PaginationPipe,
-    HeroComponent
+    HeroComponent,
+    NotFoundComponentComponent
   ],
   imports: [
     BrowserModule,

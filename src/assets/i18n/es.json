@@ -1,7 +1,8 @@
 {
   "hero": {
-    "title" : "ADMINISTRA TODOS TUS EMPLEADOS EN UN SOLO LUGAR",
-    "description" : "Aqui encontraras a todos tus empleados, ver toda su información, borrarlos o actualizarlos."
+    "title" : "ADMINISTRA TODOS TUS COLABORADORES EN UN SOLO LUGAR",
+    "description" : "Aqui encontraras a todos tus colaboradores, ver toda su información, borrarlos o actualizarlos.",
+    "button":"Ver colaboradores"
   },
   "header" : {
     "home": "Inicio",
