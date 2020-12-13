@@ -16,7 +16,7 @@ Run ng serve -o
 
 ## Deploy 📦
 
-* N/A
+* http://brueckner-prueba-juan-rios.mrdaniel01.vercel.app/
 
 ## Built with 🛠️
 
