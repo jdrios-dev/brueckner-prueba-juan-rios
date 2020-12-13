@@ -14,6 +14,18 @@ Run npm i for install all dependencies
 
 Run ng serve -o
 
+## Implementing the project On Docker 🔧
+
+Clone this repo, run : git clone https://github.com/jdrios-dev/brueckner-prueba-juan-rios.git
+
+Move to this new directory: cd brueckner-prueba-juan-rios
+
+Run Docker build: docker build  -t brueckner:latest .
+
+Run: docker run -d -p 80:80 brueckner:latest
+
+Go to http://localhost/ on your browser
+
 ## Deploy 📦
 
 * http://brueckner-prueba-juan-rios.mrdaniel01.vercel.app/
